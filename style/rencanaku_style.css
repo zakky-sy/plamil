@@ -1,0 +1,261 @@
+body {
+  font-family: 'Roboto';
+  overflow-x: hidden;
+}
+
+
+/* Navbar */
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-right: 3%;
+}
+
+.navbar img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin: 5% 0;
+}
+
+.bi {
+  margin: auto;
+}
+
+.icon-blue {
+  color: #1C85EB;
+}
+
+
+
+/* Track */
+#track2 {
+  display: none;
+}
+
+#track3 {
+  display: none;
+}
+
+#track4 {
+  display: none;
+}
+
+
+/* Cari */
+.cari {
+  background-color: #F1F6F9;
+}
+
+.cari .btn {
+  border-radius: 20px;
+}
+
+.cari button {
+  background-color: #1C85EB;
+}
+
+.cari hr {
+  width: 215px;
+  height: 2px;
+  margin: auto;
+  color: #1C85EB;
+}
+
+
+/* Pilih */
+#pilih {
+  display: none;
+}
+
+.pilih .btn {
+  border-radius: 20px;
+}
+
+.pilih button {
+  background-color: #1C85EB;
+}
+
+
+/* Card Buat */
+.btncontrol .ubah {
+  padding: 0px 30px;
+  border-radius: 50px;
+  font-weight: 400;
+  margin: 10px auto;
+}
+
+.btncontrol .buat {
+  padding: 0px 32px;
+  border-radius: 50px;
+  font-weight: 400;
+  margin: 10px auto;
+}
+
+#simpan {
+  display: none;
+}
+
+#buat {
+  display: none;
+}
+
+#profil {
+  display: none;
+}
+
+#profil-hapus {
+  display: none;
+}
+
+#buatmashed-potatoes,
+#buatkentang-goreng,
+#buatnugget-kentang,
+#buatsambal-balado-kentang,
+#buatsambal-balado-kentang-pete,
+#buatkripik-tempe,
+#buatsambel-tempe-kemanggi,
+#buattempe-kukus,
+#buattempe-sambel-penyet,
+#buatsambel-tempe-pedas,
+#buatorak-arik-tempe,
+#buattempe-geprek,
+#buattempe-sambal-balado,
+#buatnugget-tempe-stik,
+#buatsop-bayam,
+#buatsop-bayam-bening,
+#buatsayur-bayam-jagung-kuah-santan,
+#buatbayam-saus-kecap,
+#buatsandwich-bayam,
+#buatsop-bayam-tofu,
+#buatkripik-bayam,
+#buatbiskuit-bayam {
+  display: none;
+}
+
+#simpanmashed-potatoes,
+#simpankentang-goreng,
+#simpannugget-kentang,
+#simpansambal-balado-kentang,
+#simpansambal-balado-kentang-pete,
+#simpankripik-tempe,
+#simpansambel-tempe-kemanggi,
+#simpantempe-kukus,
+#simpantempe-sambel-penyet,
+#simpansambel-tempe-pedas,
+#simpanorak-arik-tempe,
+#simpantempe-geprek,
+#simpantempe-sambal-balado,
+#simpannugget-tempe-stik,
+#simpansop-bayam,
+#simpansop-bayam-bening,
+#simpansayur-bayam-jagung-kuah-santan,
+#simpanbayam-saus-kecap,
+#simpansandwich-bayam,
+#simpansop-bayam-tofu,
+#simpankripik-bayam,
+#simpanbiskuit-bayam {
+  display: none;
+}
+
+#profilmashed-potatoes,
+#profilkentang-goreng,
+#profilnugget-kentang,
+#profilsambal-balado-kentang,
+#profilsambal-balado-kentang-pete,
+#profilkripik-tempe,
+#profilsambel-tempe-kemanggi,
+#profiltempe-kukus,
+#profiltempe-sambel-penyet,
+#profilsambel-tempe-pedas,
+#profilorak-arik-tempe,
+#profiltempe-geprek,
+#profiltempe-sambal-balado,
+#profilnugget-tempe-stik,
+#profilsop-bayam,
+#profilsop-bayam-bening,
+#profilsayur-bayam-jagung-kuah-santan,
+#profilbayam-saus-kecap,
+#profilsandwich-bayam,
+#profilsop-bayam-tofu,
+#profilkripik-bayam,
+#profilbiskuit-bayam {
+  display: none;
+}
+
+
+
+/* Footer */
+.footer .container hr {
+  width: 100%;
+  height: 2px;
+  margin: auto;
+  color: #1C85EB;
+}
+
+.footer img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+
+
+  .active::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #1C85EB;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .menubar:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #1C85EB;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+}
+
+
+/* MOBILE VERSION */
+@media (max-width: 992px) {
+
+  .akun,
+  .bi {
+    display: none;
+  }
+
+  .navbar img {
+    max-width: 70px;
+  }
+
+  .nav-link {
+    margin-right: 0%;
+  }
+
+  .btncontrol .ubah {
+    margin: 15px 5px 0 auto;
+  }
+
+  .btncontrol .buat {
+    margin: 15px auto 0 5px;
+  }
+
+  .footer {
+    margin-top: -30px;
+  }
+
+  .footer img {
+    max-width: 70px;
+  }
+}

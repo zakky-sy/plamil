@@ -1,0 +1,69 @@
+body {
+  font-family: 'Roboto';
+  overflow-y: hidden;
+}
+
+
+/* Header */
+.header .container hr {
+  width: 100%;
+  height: 2px;
+  margin: auto;
+  color: #1C85EB;
+}
+
+.header img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+/* Pendaftaran */
+.form-daftar {
+  background-color: #F1F6F9;
+  padding: 20px 0px;
+  border-radius: 20px;
+}
+
+.pendaftaran .form-label {
+  font-weight: 500;
+}
+
+.pendaftaran input {
+  width: 85%;
+}
+
+.pendaftaran .form-text {
+  width: 80%;
+}
+
+.daftar {
+  padding: 5px 50px;
+  border-radius: 50px;
+  font-weight: 400;
+  background-color: #1C85EB;
+}
+
+.masuk {
+  margin-top: 1%;
+}
+
+.masuk a {
+  text-decoration: none;
+  color: #1C85EB;
+  font-weight: 500;
+}
+
+
+/* MOBILE VERSION */
+@media (max-width: 992px) {
+  .header .container{
+    padding-top: 30px;
+  }
+  
+  .form-daftar {
+    border-radius: 0;
+  }
+}
